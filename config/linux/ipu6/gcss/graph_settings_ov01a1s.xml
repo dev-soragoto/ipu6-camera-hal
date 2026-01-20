@@ -21,18 +21,18 @@ limitations under the License.
     <pll_configs>
         <pll_config bpp="0" pixel_rate_csi="0" pixel_rate="0" id="0"/>
     </pll_configs>
-    <sensor_mode name="OV01A1S_30fps" id="0" width="1296" height="800" fps="30" min_llp="0" min_fll="0" min_fps="0" max_out_width="1296" max_out_height="800" bpp="10" sensor_type="RGB_IR" pdaf_type="PDAFNone" flip_h="0" flip_v="0" conversion_gain="1" dol_mode="NoDol">
+    <sensor_mode name="OV01A1S_30fps" id="0" width="1288" height="800" fps="30" min_llp="0" min_fll="0" min_fps="0" max_out_width="1288" max_out_height="800" bpp="10" sensor_type="RGB_IR" pdaf_type="PDAFNone" flip_h="0" flip_v="0" conversion_gain="1" dol_mode="NoDol">
         <pixel_array>
-            <input width="1296" height="800" left="0" top="0"/>
-            <output width="1296" height="800" left="0" top="0"/>
+            <input width="1288" height="800" left="0" top="0"/>
+            <output width="1288" height="800" left="0" top="0"/>
         </pixel_array>
         <binner h_factor="1" v_factor="1">
-            <input width="1296" height="800" left="0" top="0"/>
-            <output width="1296" height="800" left="0" top="0"/>
+            <input width="1288" height="800" left="0" top="0"/>
+            <output width="1288" height="800" left="0" top="0"/>
         </binner>
         <scaler num_factor="1" denom_factor="1">
-            <input width="1296" height="800" left="0" top="0"/>
-            <output width="1296" height="800" left="0" top="0"/>
+            <input width="1288" height="800" left="0" top="0"/>
+            <output width="1288" height="800" left="0" top="0"/>
         </scaler>
         <pdaf width="0" height="0"/>
     </sensor_mode>
@@ -40,7 +40,7 @@ limitations under the License.
 <selected_resolutions>
   <FPS value="30">
     <sensor>
-      <resolution width="1296" height="800" />
+      <resolution width="1288" height="800" />
     </sensor>
     <isys_cropped_output>
       <resolution width="1024" height="768" />
@@ -61,7 +61,7 @@ limitations under the License.
       <resolution width="1280" height="720" />
     </stills>
     <raw>
-      <resolution width="1296" height="800" />
+      <resolution width="1288" height="800" />
     </raw>
     <ir>
       <resolution width="512" height="384" />
@@ -73,13 +73,13 @@ limitations under the License.
   <sis_b width="160" height="88" stream_id="60001" />
   <sis_a width="320" height="184" stream_id="60001" />
   <sensor vflip="0" hflip="0" mode_id="OV01A1S_30fps">
-            <port_0 format="RG10" width="1296" height="800" />
+            <port_0 format="RG10" width="1288" height="800" />
         </sensor>
   <csi_be>
-    <output format="GR10" width="1296" height="798" />
+    <output format="GR10" width="1288" height="800" />
     <stream2mmio>
-      <input width="1296" height="800" top="1" left="0" bottom="1" right="0" />
-      <output width="1296" height="798" top="0" left="0" bottom="0" right="0" />
+      <input width="1288" height="800" top="1" left="0" bottom="1" right="0" />
+      <output width="1288" height="798" top="0" left="0" bottom="0" right="0" />
     </stream2mmio>
     <tuning_mode value="0" />
   </csi_be>
@@ -97,7 +97,7 @@ limitations under the License.
       <output width="160" height="88" top="0" left="0" bottom="0" right="0" />
     </pxl_crop_sis_b>
     <pixelformatter>
-      <input width="1296" height="798" top="0" left="7" bottom="2" right="9" />
+      <input width="1288" height="800" top="0" left="3" bottom="4" right="5" />
       <output width="1280" height="796" top="0" left="0" bottom="0" right="0" />
     </pixelformatter>
     <sis_1_0_b>
@@ -169,13 +169,13 @@ limitations under the License.
   <sis_b width="128" height="96" stream_id="60001" />
   <sis_a width="256" height="192" stream_id="60001" />
   <sensor vflip="0" hflip="0" mode_id="OV01A1S_30fps">
-            <port_0 format="RG10" width="1296" height="800" />
+            <port_0 format="RG10" width="1288" height="800" />
         </sensor>
   <csi_be>
-    <output format="GR10" width="1296" height="798" />
+    <output format="GR10" width="1288" height="800" />
     <stream2mmio>
-      <input width="1296" height="800" top="1" left="0" bottom="1" right="0" />
-      <output width="1296" height="798" top="0" left="0" bottom="0" right="0" />
+      <input width="1288" height="800" top="1" left="0" bottom="1" right="0" />
+      <output width="1288" height="798" top="0" left="0" bottom="0" right="0" />
     </stream2mmio>
     <tuning_mode value="0" />
   </csi_be>
@@ -193,7 +193,7 @@ limitations under the License.
       <output width="128" height="96" top="0" left="0" bottom="0" right="0" />
     </pxl_crop_sis_b>
     <pixelformatter>
-      <input width="1296" height="798" top="0" left="7" bottom="2" right="9" />
+      <input width="1288" height="800" top="0" left="3" bottom="4" right="5" />
       <output width="1280" height="796" top="0" left="0" bottom="0" right="0" />
     </pixelformatter>
     <sis_1_0_b>
@@ -265,13 +265,13 @@ limitations under the License.
   <sis_b width="160" height="92" stream_id="60001" />
   <sis_a width="320" height="184" stream_id="60001" />
   <sensor vflip="0" hflip="0" mode_id="OV01A1S_30fps">
-            <port_0 format="RG10" width="1296" height="800" />
+            <port_0 format="RG10" width="1288" height="800" />
         </sensor>
   <csi_be>
-    <output format="GR10" width="1296" height="798" />
+    <output format="GR10" width="1288" height="800" />
     <stream2mmio>
-      <input width="1296" height="800" top="1" left="0" bottom="1" right="0" />
-      <output width="1296" height="798" top="0" left="0" bottom="0" right="0" />
+      <input width="1288" height="800" top="1" left="0" bottom="1" right="0" />
+      <output width="1288" height="798" top="0" left="0" bottom="0" right="0" />
     </stream2mmio>
     <tuning_mode value="0" />
   </csi_be>
@@ -289,7 +289,7 @@ limitations under the License.
       <output width="160" height="92" top="0" left="0" bottom="0" right="0" />
     </pxl_crop_sis_b>
     <pixelformatter>
-      <input width="1296" height="798" top="0" left="7" bottom="2" right="9" />
+      <input width="1288" height="800" top="0" left="3" bottom="4" right="5" />
       <output width="1280" height="796" top="0" left="0" bottom="0" right="0" />
     </pixelformatter>
     <sis_1_0_b>
